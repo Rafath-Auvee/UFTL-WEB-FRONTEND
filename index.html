@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+
+  <script src="index.js"></script>
+  <body>
+    <nav
+      class="navbar ml-5 mt-3"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <img
+            src="images/logo.png"
+            class="brand_logo"
+            style="max-height: 100px"
+          />
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item"> Home </a>
+
+          <a class="navbar-item"> Why Us? </a>
+          <a class="navbar-item"> Who We Serve? </a>
+          <a class="navbar-item"> Products </a>
+          <a class="navbar-item"> Team </a>
+          <a class="navbar-item"> Blog </a>
+        </div>
+
+        <div class="navbar-end is-mobile">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light"> Log in </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
