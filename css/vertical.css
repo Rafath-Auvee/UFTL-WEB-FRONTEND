@@ -23,7 +23,7 @@ html {
 
 .timeline:before {
     top: 80px;
-    bottom: 90px;
+    bottom: 120px;
     position: absolute;
     content: " ";
     width: 3px;
@@ -58,8 +58,8 @@ html {
 }
 
 .timeline>li>.timeline-panel {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
     /* width: 46%;
   float: left;
   border: 1px solid #d4d4d4;
@@ -108,7 +108,8 @@ html {
 }
 
 .timeline-heading {
-    width: 70%;
+    margin-top: 25px;
+    width: 80%;
 }
 
 .timeline-clock {
@@ -118,6 +119,11 @@ html {
 .timeline-title {
     margin-top: 0;
     color: #ff6f00;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .timeline-body>p,

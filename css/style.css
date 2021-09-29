@@ -18,6 +18,7 @@
     box-sizing: border-box;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    background-color: #fff;
     font-family: Montserrat;
     font-style: normal;
     margin: 0;
@@ -124,6 +125,26 @@ img {
 
 /* How To Order Fuel */
 
+.usingour {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8244rem;
+    line-height: 2.25rem;
+    color: #000000;
+}
+
+.usingour_para {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    /* #454545 */
+    color: #454545;
+    margin-top: 10px;
+}
+
 
 /* products */
 
@@ -144,4 +165,21 @@ img {
 
 .swiper-pagination {
     /* margin: 5rem; */
+}
+
+
+/* features */
+
+.fa-check-circle {
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.features_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 25px;
+    color: #454545;
 }
