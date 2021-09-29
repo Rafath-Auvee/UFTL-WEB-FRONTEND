@@ -1,0 +1,76 @@
+.person_quote_flexbox {
+    display: flex;
+}
+
+
+/* root */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    --orange: #ff6f00;
+    --main-heading: 3.125rem;
+    --second-heading: 1.875rem;
+    --main-paragrah: 0.875rem;
+    --black: #454545;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+}
+
+body {}
+
+.main_heading {
+    color: var(--orange);
+}
+
+
+/* home */
+
+.orderfuel {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.orderfuel span {
+    padding: 5px 20px 5px 20px;
+    background-color: var(--black);
+}
+
+.thirtysecs {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.9656rem;
+    line-height: 7.25rem;
+}
+
+.thirtysecs span {
+    background-color: var(--orange);
+    padding: 5px 20px 5px 20px;
+}
+
+.without_registration {
+    color: var(--orange);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5684rem;
+    margin: 2rem 0px;
+    line-height: 1.9375rem;
+}
