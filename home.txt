@@ -1,0 +1,38 @@
+<section id="featuresofwebapp">
+        <div class="container  my-5 py-5" id="features">
+            <div class="row text-center">
+                <h3 class="featuresheading main_heading" id="featuresheading">
+                    Features of Our Webapp
+                </h3>
+            </div>
+            <div class="row justify-content-evenly align-items-center text-center">
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-evenly align-items-center text-center">
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-evenly align-items-center text-center">
+
+
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+                <div class="col-6 features_text ">
+                    <i class="fas fa-check-circle"></i> One of two columns
+                </div>
+            </div>
+            <div class="row justify-content-evenly text-center">
+                <img src="images/Dashboard.png" alt="" />
+            </div>
+        </div>
+    </section>
