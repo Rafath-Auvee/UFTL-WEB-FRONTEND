@@ -25,6 +25,7 @@
     <!-- swipercss -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- ALL CDNS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -40,6 +41,46 @@
 </head>
 
 <body>
+    <section>
+        <div class="container">
+            <nav class="navbar ml-5 mt-3" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#">
+                        <img src="images/logo.png" class="brand_logo" style="max-height: 100px" />
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item"> Home </a>
+
+                        <a class="navbar-item"> Why Us? </a>
+                        <a class="navbar-item"> Who We Serve? </a>
+                        <a class="navbar-item"> Products </a>
+                        <a class="navbar-item"> Team </a>
+                        <a class="navbar-item"> Blog </a>
+                    </div>
+
+                    <div class="navbar-end is-mobile">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a class="button is-primary">
+                                    <strong>Sign up</strong>
+                                </a>
+                                <a class="button is-light"> Log in </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
     <!-- Home Page -->
     <section id="home" class="home">
         <div class="container">
@@ -1176,7 +1217,7 @@
                                     <summary>
                                         How do you create an accordion?
                                     </summary>
-                                    <div>
+                                    <div class="accord">
                                         Easy! As long as you don't have to support IE11 or older browsers you could use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> natively.
                                     </div>
                                 </details>
@@ -1184,7 +1225,7 @@
                                     <summary>
                                         What if I have to support IE11 or older browsers?
                                     </summary>
-                                    <div>
+                                    <div class="accord">
                                         No worries. The fallback for these elements is quite good. They will display as open. You won't get the open/close mechanism, but you won't lose any content either.
                                     </div>
                                 </details>
@@ -1192,7 +1233,7 @@
                                     <summary>
                                         What type of content can I have inside one of these?
                                     </summary>
-                                    <div>
+                                    <div class="accord">
                                         Almost anything you'd like. The <code>&lt;details&gt;</code> element allows all <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content" target="_blank">flow content</a>,
                                         which is basically everything.
                                     </div>
@@ -1201,7 +1242,7 @@
                                     <summary>
                                         How does it work?
                                     </summary>
-                                    <div>
+                                    <div class="accord">
                                         The <code>&lt;details&gt;</code> element encapsulates the <code>&lt;summary&gt;</code> element. The <code>&lt;summary&gt;</code> becomes the 'label' for the <code>&lt;details&gt;</code> and acts like a button. When
                                         clicked, the attribute <code>open</code> is added to the <code>&lt;details&gt;</code> element, making it display. You can therefore style the open and closed states seperately if you'd like.
                                     </div>

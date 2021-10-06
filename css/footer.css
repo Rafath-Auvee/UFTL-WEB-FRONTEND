@@ -696,6 +696,7 @@ i {
     font-size: 18px;
     text-decoration: none;
     line-height: 150%;
+    border: none;
     /* or 27px */
     /* #000000 */
     color: #000000;
